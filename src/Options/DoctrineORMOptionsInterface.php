@@ -2,8 +2,8 @@
 
 namespace HtUserRegistrationDoctrineORM\Options;
 
-interface DoctrineORMOptionsInterface 
+interface DoctrineORMOptionsInterface
 {
-    public function setObjectManger();
+    public function setObjectManager($objectManager);
     public function getObjectManager();
 }

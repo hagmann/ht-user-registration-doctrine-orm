@@ -1,6 +1,6 @@
 <?php
 
-namespace HtUserRegistrationDoctrineORM;
+namespace HtUserRegistrationDoctrineORM\Options;
 
 use HtUserRegistration\Options\ModuleOptions as HtUserRegistrationModuleOptions;
 
@@ -8,7 +8,7 @@ class ModuleOptions extends HtUserRegistrationModuleOptions implements DoctrineO
 {
     protected $objectManager = 'doctrine.entitymanager.orm_default';
 
-    public function setObjectManager($objectManager) 
+    public function setObjectManager($objectManager)
     {
         $this->objectManager = $objectManager;
 
