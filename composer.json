@@ -1,5 +1,6 @@
 {
     "name": "apigility-skeletons/ht-user-registration-doctrine-orm",
+    "description": "A ZfcUser based module to add ORM to HtUserRegistration",
     "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
@@ -10,11 +11,11 @@
     ],
     "require": {
         "hrevert/ht-user-registration": "^0.0.3"
-    }
+    },
     "autoload": {
         "psr-4": {
             "HtUserRegistrationDoctrineORM\\": "src/",
-            "HtUserRegistrationDoctrineORMTest\\": "test/",
+            "HtUserRegistrationDoctrineORMTest\\": "test/"
         },
         "classmap": [
             "Module.php"
