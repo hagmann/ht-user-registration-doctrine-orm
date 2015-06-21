@@ -11,4 +11,13 @@
     "require": {
         "hrevert/ht-user-registration": "^0.0.3"
     }
+    "autoload": {
+        "psr-4": {
+            "HtUserRegistrationDoctrineORM\\": "src/",
+            "HtUserRegistrationDoctrineORMTest\\": "test/",
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
 }
