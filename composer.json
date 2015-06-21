@@ -1,5 +1,5 @@
 {
-    "name": "apigility-skeletons/ht-user-registration-doctrine",
+    "name": "apigility-skeletons/ht-user-registration-doctrine-orm",
     "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
@@ -8,5 +8,7 @@
             "email": "tom.h.anderson@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "hrevert/ht-user-registration": "^0.0.3"
+    }
 }

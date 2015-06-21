@@ -1,6 +1,6 @@
 <?php
 
-namespace HtUserRegistration\Mapper;
+namespace HtUserRegistrationORM\Mapper;
 
 use Zend\ServiceManager\ServiceLocatorInterface;
 use Zend\ServiceManager\FactoryInterface;

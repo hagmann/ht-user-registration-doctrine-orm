@@ -1,6 +1,6 @@
 <?php
 
-namespace HtUserRegistrationDoctrine;
+namespace HtUserRegistrationDoctrineORM;
 
 class Module
 {
