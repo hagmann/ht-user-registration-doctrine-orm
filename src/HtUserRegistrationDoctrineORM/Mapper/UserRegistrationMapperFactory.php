@@ -4,6 +4,7 @@ namespace HtUserRegistrationORM\Mapper;
 
 use Zend\ServiceManager\ServiceLocatorInterface;
 use Zend\ServiceManager\FactoryInterface;
+use HtUserRegistration\Options\
 
 class UserRegistrationMapperFactory implements FactoryInferface 
 {
