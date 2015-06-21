@@ -1,0 +1,12 @@
+{
+    "name": "apigility-skeletons/ht-user-registration-doctrine",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tom Anderson",
+            "email": "tom.h.anderson@gmail.com"
+        }
+    ],
+    "require": {}
+}
