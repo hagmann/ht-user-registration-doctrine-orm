@@ -15,7 +15,10 @@ composer require apigility-skeletons/ht-user-registration-doctrine-orm
 Include in config/application.config.php
 ```
     'modules' => array(
-        'HtUserRegistrationDoctrineORM',
+        ...
+        'HtUserRegistration',
+        'HtUserRegistrationDoctrineORM',  // include after HtUserRegistration
+        ...
     ),
 ```
 
