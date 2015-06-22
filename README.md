@@ -13,7 +13,7 @@ composer require apigility-skeletons/ht-user-registration-doctrine-orm
 ```
 
 Include in config/application.config.php
-```
+```php
     'modules' => array(
         ...
         'HtUserRegistration',
@@ -36,7 +36,7 @@ joins the `UserRegistration` entity to your User entity.  Most important is to e
 `$userEntity` variable with your Doctrine user entity.
 
 In `ht-user-registration.global.php` set
-```
+```php
     'registration_entity_class' => 'HtUserRegistrationDoctrineORM\Entity\UserRegistration',
 ```
 
