@@ -15,8 +15,9 @@ class UserRegistration implements UserRegistrationInterface
     protected $hasResponded = false;
     protected $user;
 
-    public function __construct()
+    public function __construct(UserInterface $user = null)
     {
+        $this->setUser($user);
         $this->requestedAt = new Datetime();
     }
 

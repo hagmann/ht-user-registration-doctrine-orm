@@ -4,6 +4,9 @@ namespace HtUserRegistrationDoctrineORM\Mapper;
 
 use ZfcUser\Entity\UserInterface;
 use DoctrineModule\Persistence\ObjectManagerAwareInterface;
+use HtUserRegistration\Mapper\UserRegistrationMapperInterface;
+use Doctrine\Common\Persistence\ObjectManager;
+use Zend\Stdlib\Hydrator\HydratorInterface;
 
 class UserRegistrationMapper implements
     UserRegistrationMapperInterface,
@@ -46,12 +49,19 @@ class UserRegistrationMapper implements
 
     public function findByUser(UserInterface $user)
     {
-        $this->getObjectManager()->getRepository($this->getEntityClass())->
-            findOneBy(array(
-                'user' => $user,
-            ))
-        ;
+        return $user->getUserRegistration();
+    }
 
+    public function insert($entity, $tableName = null, HydratorInterface $hydrator = null)
+    {
+        $this->getObjectManager()->persist($entity);
+        $this->getObjectManager()->flush();
+    }
+
+    public function update($entity, $where = null, $tableName = null, HydratorInterface $hydrator = null)
+    {
+        $this->getObjectManager()->persist($entity);
+        $this->getObjectManager()->flush();
     }
 
 }

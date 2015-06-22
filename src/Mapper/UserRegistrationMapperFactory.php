@@ -13,9 +13,9 @@ class UserRegistrationMapperFactory implements FactoryInterface
         $entityClass = $options->getRegistrationEntityClass();
 
         $mapper = new UserRegistrationMapper();
-        $mapper->setObjectManager($serviceLocator->find($options->getObjectManager));
+        $mapper->setObjectManager($serviceLocator->get($options->getDoctrineObjectManager()));
         $mapper->setEntityClass($entityClass);
-die('ok');
+
         return $mapper;
     }
 }
