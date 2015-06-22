@@ -34,3 +34,15 @@ to your autoload directory and rename to `ht-user-registration-doctrine-orm.glob
 Edit `ht-user-registration-doctrine-orm.global.php` for your configuration.  Dynamic mapping
 joins the `UserRegistration` entity to your User entity.  Most important is to edit the
 `$userEntity` variable with your Doctrine user entity.
+
+In `ht-user-registration.global.php` set
+```
+    'registration_entity_class' => 'HtUserRegistrationDoctrineORM\Entity\UserRegistration',
+```
+
+
+Skipper
+-------
+
+A [Skipper](https://skipper18.com) module is included to add to your entity relationship diagram
+as an attached skipper module.

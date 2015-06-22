@@ -3,7 +3,7 @@
 namespace HtUserRegistrationDoctrineORM\Entity;
 
 use HtUserRegistration\Entity\UserRegistrationInterface;
-use ZfcUser\Entity\UserInterface;
+use ZfcUser\Entity\UserInterface as ZfcUserInterface;
 use Zend\Math\Rand;
 use Datetime;
 
@@ -15,7 +15,7 @@ class UserRegistration implements UserRegistrationInterface
     protected $hasResponded = false;
     protected $user;
 
-    public function __construct(UserInterface $user = null)
+    public function __construct(ZfcUserInterface $user = null)
     {
         $this->setUser($user);
         $this->requestedAt = new Datetime();
@@ -48,7 +48,7 @@ class UserRegistration implements UserRegistrationInterface
         );
     }
 
-    public function setUser(UserInterface $user)
+    public function setUser(ZfcUserInterface $user)
     {
         $this->user = $user;
 
