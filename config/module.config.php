@@ -7,7 +7,7 @@ return array(
                 'HtUserRegistrationDoctrineORM\Mapper\UserRegistrationMapperFactory',
 
             'HtUserRegistration\ModuleOptions' =>
-                'HtUserRegistrationDoctrineORM\Options\ModuleOptions',
+                'HtUserRegistrationDoctrineORM\Options\ModuleOptionsFactory',
         ),
     ),
 );
