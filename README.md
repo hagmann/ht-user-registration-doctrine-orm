@@ -1,14 +1,16 @@
-HtUserRegistrationDoctrineORM
-=============================
+API Skeletons - HtUserRegistrationDoctrineORM
+=============================================
 
 This module extends [HtUserRegistration](https://github.com/hrevert/HtUserRegistration)
-by replacing the Zend DB code with Doctrine.
+by replacing the Zend DB code with Doctrine.  This module is functionally similar and designed to supercede
+hrevert/HtUserRegistrationDoctrineORM 
+
 
 Install
 -------
 
 Require with composer
-```
+```sh
 composer require apigility-skeletons/ht-user-registration-doctrine-orm
 ```
 
