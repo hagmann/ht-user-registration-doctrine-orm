@@ -1,6 +1,6 @@
 <?php
 
-namespace HtUserRegistrationDoctrineORM\Options;
+namespace APISkeletons\HtUserRegistrationDoctrineORM\Options;
 
 use Zend\ServiceManager\ServiceLocatorInterface;
 use Zend\ServiceManager\FactoryInterface;

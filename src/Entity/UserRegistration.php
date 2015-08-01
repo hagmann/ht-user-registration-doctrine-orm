@@ -1,6 +1,6 @@
 <?php
 
-namespace HtUserRegistrationDoctrineORM\Entity;
+namespace APISkeletons\HtUserRegistrationDoctrineORM\Entity;
 
 use HtUserRegistration\Entity\UserRegistrationInterface;
 use ZfcUser\Entity\UserInterface as ZfcUserInterface;
@@ -108,5 +108,4 @@ class UserRegistration implements UserRegistrationInterface
     {
         return $this->getHasResponded();
     }
-
 }

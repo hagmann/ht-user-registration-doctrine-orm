@@ -1,6 +1,6 @@
 <?php
 
-namespace HtUserRegistrationDoctrineORM\Entity;
+namespace APISkeletons\HtUserRegistrationDoctrineORM\Entity;
 
 use HtUserRegistration\Entity\UserRegistrationInterface;
 

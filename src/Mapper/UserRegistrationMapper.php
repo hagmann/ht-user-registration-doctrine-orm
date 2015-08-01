@@ -1,6 +1,6 @@
 <?php
 
-namespace HtUserRegistrationDoctrineORM\Mapper;
+namespace APISkeletons\HtUserRegistrationDoctrineORM\Mapper;
 
 use ZfcUser\Entity\UserInterface;
 use DoctrineModule\Persistence\ObjectManagerAwareInterface;
@@ -63,5 +63,4 @@ class UserRegistrationMapper implements
         $this->getObjectManager()->persist($entity);
         $this->getObjectManager()->flush();
     }
-
 }

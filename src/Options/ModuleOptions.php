@@ -1,6 +1,6 @@
 <?php
 
-namespace HtUserRegistrationDoctrineORM\Options;
+namespace APISkeletons\HtUserRegistrationDoctrineORM\Options;
 
 use HtUserRegistration\Options\ModuleOptions as HtUserRegistrationModuleOptions;
 

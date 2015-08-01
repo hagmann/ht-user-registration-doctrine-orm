@@ -1,11 +1,11 @@
 <?php
 
-namespace HtUserRegistrationDoctrineORM;
+namespace APISkeletons\HtUserRegistrationDoctrineORM;
 
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 use Doctrine\ORM\Mapping\Driver\XmlDriver;
-use HtUserRegistrationDoctrineORM\EventListener\DynamicMappingSubscriber;
+use APISkeletons\HtUserRegistrationDoctrineORM\EventListener\DynamicMappingSubscriber;
 
 class Module
 {
@@ -20,7 +20,7 @@ class Module
             $chain = $sm->get($options->getDoctrineDriver());
             $chain->addDriver(
                 new XmlDriver(__DIR__ . '/config/orm'),
-                'HtUserRegistrationDoctrineORM\Entity'
+                'APISkeletons\HtUserRegistrationDoctrineORM\Entity'
             );
         }
 

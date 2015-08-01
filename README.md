@@ -19,7 +19,7 @@ Include in config/application.config.php
     'modules' => array(
         ...
         'HtUserRegistration',
-        'HtUserRegistrationDoctrineORM',  // include after HtUserRegistration
+        'APISkeletons\HtUserRegistrationDoctrineORM',  // include after HtUserRegistration
         ...
     ),
 ```

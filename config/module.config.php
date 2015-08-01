@@ -4,10 +4,10 @@ return array(
     'service_manager' => array(
         'factories' => array(
             'HtUserRegistration\UserRegistrationMapper' =>
-                'HtUserRegistrationDoctrineORM\Mapper\UserRegistrationMapperFactory',
+                'APISkeletons\HtUserRegistrationDoctrineORM\Mapper\UserRegistrationMapperFactory',
 
             'HtUserRegistration\ModuleOptions' =>
-                'HtUserRegistrationDoctrineORM\Options\ModuleOptionsFactory',
+                'APISkeletons\HtUserRegistrationDoctrineORM\Options\ModuleOptionsFactory',
         ),
     ),
 );

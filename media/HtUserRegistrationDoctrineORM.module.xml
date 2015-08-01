@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<skipper version="3.2.2.1235" mvc="Without MVC" orm="Doctrine2">
-  <module name="\HtUserRegistrationDoctrineORM" local-name="HtUserRegistrationDoctrineORM" namespace="\HtUserRegistrationDoctrineORM\Entity" local-namespace="HtUserRegistrationDoctrineORM\Entity" export-format="Doctrine2Xml" export-path="../config/orm" uuid="d6f04d54-e996-4496-adaf-a954afa7b07c">
-    <entity name="\HtUserRegistrationDoctrineORM\Entity\UserRegistration" local-name="UserRegistration" namespace="\HtUserRegistrationDoctrineORM\Entity" uuid="cab121b2-737e-4699-ab29-efc9373b9368">
+<skipper version="3.2.3.1247" mvc="Without MVC" orm="Doctrine2">
+  <module name="\API-Skeletons HtUserRegistrationDoctrineORM" local-name="API-Skeletons HtUserRegistrationDoctrineORM" namespace="\APISkeletons\HtUserRegistrationDoctrineORM\Entity" local-namespace="APISkeletons\HtUserRegistrationDoctrineORM\Entity" export-format="Doctrine2Xml" export-path="../config/orm" uuid="d6f04d54-e996-4496-adaf-a954afa7b07c">
+    <entity name="\APISkeletons\HtUserRegistrationDoctrineORM\Entity\UserRegistration" local-name="UserRegistration" namespace="\APISkeletons\HtUserRegistrationDoctrineORM\Entity" uuid="cab121b2-737e-4699-ab29-efc9373b9368">
       <field name="id" type="integer" required="true" unique="true" primary="true" auto-increment="true" uuid="8b757e4e-b4c5-44cc-999a-56089f71296a"/>
       <field name="token" type="string" required="true" uuid="6ed7a8a7-512f-4ad0-8e8f-ead9d1a0ca8f"/>
       <field name="requestedAt" type="datetime" required="true" uuid="f4a2b798-d02b-499e-8a5f-68bca1a30ff6"/>
