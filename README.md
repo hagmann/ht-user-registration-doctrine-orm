@@ -11,7 +11,7 @@ Install
 
 Require with composer
 ```sh
-composer require apigility-skeletons/ht-user-registration-doctrine-orm
+composer require api-skeletons/ht-user-registration-doctrine-orm
 ```
 
 Include in config/application.config.php
