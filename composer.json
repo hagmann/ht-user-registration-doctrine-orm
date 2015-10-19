@@ -1,5 +1,5 @@
 {
-    "name": "api-skeletons/ht-user-registration-doctrine-orm",
+    "name": "hagmann/ht-user-registration-doctrine-orm",
     "description": "A ZfcUser based module to add ORM to HtUserRegistration",
     "type": "library",
     "license": "BSD-3-Clause",
