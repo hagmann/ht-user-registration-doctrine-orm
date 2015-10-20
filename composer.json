@@ -5,8 +5,8 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Tom Anderson",
-            "email": "tom.h.anderson@gmail.com"
+            "name": "Simon Hagmann",
+            "email": "info@hagmann.io"
         }
     ],
     "require": {
@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "APISkeletons\\HtUserRegistrationDoctrineORM\\": "src/",
-            "APISkeletons\\HtUserRegistrationDoctrineORMTest\\": "test/"
+            "\HtUserRegistrationDoctrineORM\\": "src/",
+            "\HtUserRegistrationDoctrineORMTest\\": "test/"
         },
         "classmap": [
             "Module.php"

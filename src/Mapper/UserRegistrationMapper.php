@@ -1,6 +1,6 @@
 <?php
 
-namespace APISkeletons\HtUserRegistrationDoctrineORM\Mapper;
+namespace HtUserRegistrationDoctrineORM\Mapper;
 
 use ZfcUser\Entity\UserInterface;
 use DoctrineModule\Persistence\ObjectManagerAwareInterface;

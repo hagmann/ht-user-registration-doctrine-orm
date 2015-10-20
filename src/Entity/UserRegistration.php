@@ -1,6 +1,6 @@
 <?php
 
-namespace APISkeletons\HtUserRegistrationDoctrineORM\Entity;
+namespace HtUserRegistrationDoctrineORM\Entity;
 
 use HtUserRegistration\Entity\UserRegistrationInterface;
 use ZfcUser\Entity\UserInterface as ZfcUserInterface;

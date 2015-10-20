@@ -1,6 +1,6 @@
 <?php
 
-namespace APISkeletons\HtUserRegistrationDoctrineORM\EventListener;
+namespace HtUserRegistrationDoctrineORM\EventListener;
 
 use Doctrine\Common\EventSubscriber;
 use Doctrine\ORM\Events;

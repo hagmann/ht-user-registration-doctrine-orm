@@ -1,6 +1,6 @@
 <?php
 
-namespace APISkeletons\HtUserRegistrationDoctrineORM\Options;
+namespace HtUserRegistrationDoctrineORM\Options;
 
 interface DoctrineORMOptionsInterface
 {
