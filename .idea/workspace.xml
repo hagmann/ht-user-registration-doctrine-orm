@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="082cd6d4-f125-4d28-88d5-5b26572ca445" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/orm/APISkeletons.HtUserRegistrationDoctrineORM.Entity.UserRegistration.dcm.xml" afterPath="$PROJECT_DIR$/config/orm/APISkeletons.HtUserRegistrationDoctrineORM.Entity.UserRegistration.dcm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Options/DoctrineORMOptionsInterface.php" afterPath="$PROJECT_DIR$/src/Options/DoctrineORMOptionsInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EventListener/DynamicMappingSubscriber.php" afterPath="$PROJECT_DIR$/src/EventListener/DynamicMappingSubscriber.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/HtUserRegistrationDoctrineORM.module.xml" afterPath="$PROJECT_DIR$/media/HtUserRegistrationDoctrineORM.module.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Module.php" afterPath="$PROJECT_DIR$/Module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Options/ModuleOptions.php" afterPath="$PROJECT_DIR$/src/Options/ModuleOptions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Options/ModuleOptionsFactory.php" afterPath="$PROJECT_DIR$/src/Options/ModuleOptionsFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/UserInterface.php" afterPath="$PROJECT_DIR$/src/Entity/UserInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/UserRegistration.php" afterPath="$PROJECT_DIR$/src/Entity/UserRegistration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mapper/UserRegistrationMapper.php" afterPath="$PROJECT_DIR$/src/Mapper/UserRegistrationMapper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mapper/UserRegistrationMapperFactory.php" afterPath="$PROJECT_DIR$/src/Mapper/UserRegistrationMapperFactory.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/module.config.php" afterPath="$PROJECT_DIR$/config/module.config.php" />
     </list>
     <ignored path="ht-user-registration-doctrine-orm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Module.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Module.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5222734">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state vertical-scroll-proportion="-6.8965516">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -57,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5172415">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.58371735">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -239,14 +226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5172415">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -257,8 +236,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5222734">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state vertical-scroll-proportion="-6.8965516">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58371735">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>

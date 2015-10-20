@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "\HtUserRegistrationDoctrineORM\\": "src/",
-            "\HtUserRegistrationDoctrineORMTest\\": "test/"
+            "hagmann\\HtUserRegistrationDoctrineORM\\": "src/",
+            "hagmann\\HtUserRegistrationDoctrineORMTest\\": "test/"
         },
         "classmap": [
             "Module.php"
