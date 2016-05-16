@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "doctrine/doctrine-module": "^0.9",
+        "doctrine/doctrine-module": "*",
         "doctrine/doctrine-orm-module": "*",
         "hrevert/ht-user-registration": "^0.0.3"
     },
